@@ -1,0 +1,129 @@
+.body,h2{
+    margin: 0;
+    font-size: Arial;
+    display: flex;
+
+}
+.landing{
+    background-image: url('../media/pfs1.jpg');
+    background-size: 500;
+    background-position:  center;
+    height: 100vh;
+    color:#0081C9;
+
+}
+header a{
+    text-decoration: none;
+    color: #da077b;
+    padding: 2rem;
+}
+header{
+    display: flex;
+    
+    height: 15VH;
+}
+
+#logo{
+    flex: 3;
+    font-size: 2em;
+    font-family:cursive;
+}
+nav{
+    flex:1.5;
+    display: flex;
+    font-family: cursive;
+}
+nav a{
+    flex:1;
+    font-size: 1.7em;}
+nav a:hover{
+    color: black;
+
+}
+.frames{
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.title{
+    color: rgb(101, 3, 85);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.para p{
+    color: rgb(235, 19, 62);
+    margin-left: 150px;
+    font-size: 2rem;
+
+}
+.model{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right, rgba(124, 116, 114, 0.649),rgb(244, 255, 255));
+    color: black;
+
+}
+#framesmod,#lochead{
+    background: linear-gradient(to right, rgba(124, 116, 114, 0.649),rgb(244, 255, 255));
+    font-size: 2.5em;
+    color: rgb(182, 18, 146);
+    display: flex;
+    justify-content: center;
+}
+.model th{
+    color:rgb(200, 20, 164);
+    font-size: 1.5em;
+    column-gap: 3em;
+
+
+    
+}
+table{
+    width: 100%;
+    padding: 2em;
+
+}
+.model tr{
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+    margin-top: .8em;
+}
+.model td:nth-last-child(1){
+    flex: 1;
+    justify-self: left;
+
+}
+.model td:nth-last-child(2){
+    justify-self: right;
+
+}
+.Arni{
+    background: linear-gradient(to right, rgba(124, 116, 114, 0.6499),rgb(244, 255, 255));
+    color:white
+    display:flex;
+    padding: auto;
+    
+
+
+}
+#location h2{
+    color:rgb(225, 16, 194);
+    margin-bottom: .8em;
+    text-align: center;
+
+}
+#location div{
+    flex:1;
+    padding: 5em;
+
+  
+    
+}
+td{
+    text-align: left;
+    width: 150px;;
+}
